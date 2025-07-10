@@ -1,0 +1,19 @@
+{
+  "name": "practice_bdd",
+  "version": "1.0.0",
+  "type": "commonjs",
+  "scripts": {
+    "test": "cross-env ENV=prod npx cucumber-js",
+    "test:rerun": "cross-env ENV=prod npx cucumber-js -p rerun",
+    "report": "npx cucumber-html-reporter --theme bootstrap --jsonFile=test-results/cucumber-report.json --output=reports/cucumber-report.html"
+  },
+  "devDependencies": {
+    "@cucumber/cucumber": "^11.3.0",
+    "@playwright/test": "^1.53.2",
+    "@types/node": "^24.0.10",
+    "@types/winston": "^2.4.4",
+    "cross-env": "^7.0.3",
+    "dotenv": "^17.1.0",
+    "ts-node": "^10.9.2"
+  }
+}
