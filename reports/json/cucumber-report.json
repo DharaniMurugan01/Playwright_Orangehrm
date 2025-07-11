@@ -1,0 +1,452 @@
+[
+  {
+    "description": "",
+    "elements": [
+      {
+        "description": "",
+        "id": "orangehrm-login-and-forgot-password-functionality;login-functionality-with-various-credentials",
+        "keyword": "Scenario Outline",
+        "line": 12,
+        "name": "Login functionality with various credentials",
+        "steps": [
+          {
+            "keyword": "Before",
+            "hidden": true,
+            "result": {
+              "status": "passed",
+              "duration": 2994918499
+            }
+          },
+          {
+            "arguments": [],
+            "keyword": "Given ",
+            "line": 5,
+            "name": "the user navigates to OrangeHRM login page",
+            "match": {
+              "location": "src\\test\\steps\\loginstep.ts:9"
+            },
+            "result": {
+              "status": "passed",
+              "duration": 5261909799
+            }
+          },
+          {
+            "arguments": [],
+            "keyword": "When ",
+            "line": 6,
+            "name": "the user enters username \"Admin\" and password \"admin123\"",
+            "match": {
+              "location": "src\\test\\steps\\loginstep.ts:18"
+            },
+            "result": {
+              "status": "passed",
+              "duration": 1242899900
+            }
+          },
+          {
+            "arguments": [],
+            "keyword": "And ",
+            "line": 7,
+            "name": "clicks on the Login button",
+            "match": {
+              "location": "src\\test\\steps\\loginstep.ts:22"
+            },
+            "result": {
+              "status": "passed",
+              "duration": 1760567200
+            }
+          },
+          {
+            "arguments": [],
+            "keyword": "Then ",
+            "line": 8,
+            "name": "the user should see \"valid login\"",
+            "match": {
+              "location": "src\\test\\steps\\loginstep.ts:26"
+            },
+            "result": {
+              "status": "passed",
+              "duration": 995353800
+            }
+          },
+          {
+            "keyword": "After",
+            "hidden": true,
+            "result": {
+              "status": "passed",
+              "duration": 1624397000
+            }
+          }
+        ],
+        "tags": [
+          {
+            "name": "@Login",
+            "line": 3
+          }
+        ],
+        "type": "scenario"
+      },
+      {
+        "description": "",
+        "id": "orangehrm-login-and-forgot-password-functionality;login-functionality-with-various-credentials",
+        "keyword": "Scenario Outline",
+        "line": 13,
+        "name": "Login functionality with various credentials",
+        "steps": [
+          {
+            "keyword": "Before",
+            "hidden": true,
+            "result": {
+              "status": "passed",
+              "duration": 1244547500
+            }
+          },
+          {
+            "arguments": [],
+            "keyword": "Given ",
+            "line": 5,
+            "name": "the user navigates to OrangeHRM login page",
+            "match": {
+              "location": "src\\test\\steps\\loginstep.ts:9"
+            },
+            "result": {
+              "status": "passed",
+              "duration": 3524730700
+            }
+          },
+          {
+            "arguments": [],
+            "keyword": "When ",
+            "line": 6,
+            "name": "the user enters username \"invalidUser\" and password \"invalidPass\"",
+            "match": {
+              "location": "src\\test\\steps\\loginstep.ts:18"
+            },
+            "result": {
+              "status": "passed",
+              "duration": 1718162799
+            }
+          },
+          {
+            "arguments": [],
+            "keyword": "And ",
+            "line": 7,
+            "name": "clicks on the Login button",
+            "match": {
+              "location": "src\\test\\steps\\loginstep.ts:22"
+            },
+            "result": {
+              "status": "passed",
+              "duration": 1111683299
+            }
+          },
+          {
+            "arguments": [],
+            "keyword": "Then ",
+            "line": 8,
+            "name": "the user should see \"invalid login\"",
+            "match": {
+              "location": "src\\test\\steps\\loginstep.ts:26"
+            },
+            "result": {
+              "status": "passed",
+              "duration": 777493000
+            }
+          },
+          {
+            "keyword": "After",
+            "hidden": true,
+            "result": {
+              "status": "passed",
+              "duration": 353434399
+            }
+          }
+        ],
+        "tags": [
+          {
+            "name": "@Login",
+            "line": 3
+          }
+        ],
+        "type": "scenario"
+      },
+      {
+        "description": "",
+        "id": "orangehrm-login-and-forgot-password-functionality;login-functionality-with-various-credentials",
+        "keyword": "Scenario Outline",
+        "line": 14,
+        "name": "Login functionality with various credentials",
+        "steps": [
+          {
+            "keyword": "Before",
+            "hidden": true,
+            "result": {
+              "status": "passed",
+              "duration": 985512900
+            }
+          },
+          {
+            "arguments": [],
+            "keyword": "Given ",
+            "line": 5,
+            "name": "the user navigates to OrangeHRM login page",
+            "match": {
+              "location": "src\\test\\steps\\loginstep.ts:9"
+            },
+            "result": {
+              "status": "passed",
+              "duration": 3796915299
+            }
+          },
+          {
+            "arguments": [],
+            "keyword": "When ",
+            "line": 6,
+            "name": "the user enters username \"\" and password \"invalidPass\"",
+            "match": {
+              "location": "src\\test\\steps\\loginstep.ts:18"
+            },
+            "result": {
+              "status": "passed",
+              "duration": 1228419799
+            }
+          },
+          {
+            "arguments": [],
+            "keyword": "And ",
+            "line": 7,
+            "name": "clicks on the Login button",
+            "match": {
+              "location": "src\\test\\steps\\loginstep.ts:22"
+            },
+            "result": {
+              "status": "passed",
+              "duration": 217390399
+            }
+          },
+          {
+            "arguments": [],
+            "keyword": "Then ",
+            "line": 8,
+            "name": "the user should see \"empty login\"",
+            "match": {
+              "location": "src\\test\\steps\\loginstep.ts:26"
+            },
+            "result": {
+              "status": "passed",
+              "duration": 34698300
+            }
+          },
+          {
+            "keyword": "After",
+            "hidden": true,
+            "result": {
+              "status": "passed",
+              "duration": 490412700
+            }
+          }
+        ],
+        "tags": [
+          {
+            "name": "@Login",
+            "line": 3
+          }
+        ],
+        "type": "scenario"
+      },
+      {
+        "description": "",
+        "id": "orangehrm-login-and-forgot-password-functionality;forgot-password-functionality",
+        "keyword": "Scenario",
+        "line": 17,
+        "name": "Forgot Password functionality",
+        "steps": [
+          {
+            "keyword": "Before",
+            "hidden": true,
+            "result": {
+              "status": "passed",
+              "duration": 1239317799
+            }
+          },
+          {
+            "arguments": [],
+            "keyword": "Given ",
+            "line": 18,
+            "name": "the user navigates to OrangeHRM login page",
+            "match": {
+              "location": "src\\test\\steps\\loginstep.ts:9"
+            },
+            "result": {
+              "status": "passed",
+              "duration": 3684941100
+            }
+          },
+          {
+            "arguments": [],
+            "keyword": "When ",
+            "line": 19,
+            "name": "the user clicks on the Forgot Password link",
+            "match": {
+              "location": "src\\test\\steps\\loginstep.ts:30"
+            },
+            "result": {
+              "status": "passed",
+              "duration": 1859835200
+            }
+          },
+          {
+            "arguments": [],
+            "keyword": "Then ",
+            "line": 20,
+            "name": "the Forgot Password page should be displayed",
+            "match": {
+              "location": "src\\test\\steps\\loginstep.ts:34"
+            },
+            "result": {
+              "status": "passed",
+              "duration": 877444599
+            }
+          },
+          {
+            "keyword": "After",
+            "hidden": true,
+            "result": {
+              "status": "passed",
+              "duration": 544517800
+            }
+          }
+        ],
+        "tags": [
+          {
+            "name": "@ForgotPassword",
+            "line": 16
+          }
+        ],
+        "type": "scenario"
+      }
+    ],
+    "id": "orangehrm-login-and-forgot-password-functionality",
+    "line": 1,
+    "keyword": "Feature",
+    "name": "OrangeHRM Login and Forgot Password Functionality",
+    "tags": [],
+    "uri": "src\\test\\features\\Login.feature"
+  },
+  {
+    "description": "",
+    "elements": [
+      {
+        "description": "",
+        "id": "orangehrm_pim;add-a-new-employee",
+        "keyword": "Scenario",
+        "line": 2,
+        "name": "Add a new employee",
+        "steps": [
+          {
+            "keyword": "Before",
+            "hidden": true,
+            "result": {
+              "status": "passed",
+              "duration": 951779300
+            }
+          },
+          {
+            "arguments": [],
+            "keyword": "Given ",
+            "line": 3,
+            "name": "the user navigates to OrangeHRM login page",
+            "match": {
+              "location": "src\\test\\steps\\loginstep.ts:9"
+            },
+            "result": {
+              "status": "passed",
+              "duration": 3932546099
+            }
+          },
+          {
+            "arguments": [],
+            "keyword": "When ",
+            "line": 4,
+            "name": "the user enters username \"Admin\" and password \"admin123\"",
+            "match": {
+              "location": "src\\test\\steps\\loginstep.ts:18"
+            },
+            "result": {
+              "status": "passed",
+              "duration": 1150616999
+            }
+          },
+          {
+            "arguments": [],
+            "keyword": "And ",
+            "line": 5,
+            "name": "clicks on the Login button",
+            "match": {
+              "location": "src\\test\\steps\\loginstep.ts:22"
+            },
+            "result": {
+              "status": "passed",
+              "duration": 1283937600
+            }
+          },
+          {
+            "arguments": [],
+            "keyword": "When ",
+            "line": 6,
+            "name": "the user click the PIM menu",
+            "match": {
+              "location": "src\\test\\steps\\Pimstep.ts:6"
+            },
+            "result": {
+              "status": "passed",
+              "duration": 3649482699
+            }
+          },
+          {
+            "arguments": [],
+            "keyword": "And ",
+            "line": 7,
+            "name": "the user Add the employee",
+            "match": {
+              "location": "src\\test\\steps\\Pimstep.ts:10"
+            },
+            "result": {
+              "status": "passed",
+              "duration": 4619334100
+            }
+          },
+          {
+            "arguments": [],
+            "keyword": "Then ",
+            "line": 8,
+            "name": "the employee should be added successfully",
+            "match": {
+              "location": "src\\test\\steps\\Pimstep.ts:19"
+            },
+            "result": {
+              "status": "passed",
+              "duration": 2427400
+            }
+          },
+          {
+            "keyword": "After",
+            "hidden": true,
+            "result": {
+              "status": "passed",
+              "duration": 468713799
+            }
+          }
+        ],
+        "tags": [],
+        "type": "scenario"
+      }
+    ],
+    "id": "orangehrm_pim",
+    "line": 1,
+    "keyword": "Feature",
+    "name": "OrangeHRM_PIM",
+    "tags": [],
+    "uri": "src\\test\\features\\Pim.feature"
+  }
+]
